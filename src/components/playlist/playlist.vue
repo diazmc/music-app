@@ -1,6 +1,5 @@
 <template>
   <div class="playlist">
-    <h1>My Playlist</h1>
   </div>  
 </template>
 
