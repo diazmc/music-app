@@ -2,22 +2,24 @@
   <div id="app">
     <Navigation />
     <SongPlayer />
+    <Playlist />
   </div>
 </template>
 
 <script>
 import Navigation from './components/navigation/navigation'
 import SongPlayer from './components/song-player/song-player'
+import Playlist from './components/playlist/playlist'
 
 export default {
   name: 'App',
   components: {
     Navigation,
-    SongPlayer
+    SongPlayer,
+    Playlist
   },
   data () {
     return {
-      
     }
   }
 }
