@@ -37,14 +37,14 @@ export default {
     index: 0,
     songs: [
       {
-        title: 'Juicy',
-        artist: 'The Notorious B.I.G.',
-        src: require('../../assets/notorious-big-juicy.mp3')
-      },
-      {
         title: 'Myself',
         artist: 'NAV',
         src: require('../../assets/nav-myself.mp3')
+      },
+      {
+        title: 'Juicy',
+        artist: 'The Notorious B.I.G.',
+        src: require('../../assets/notorious-big-juicy.mp3')
       }
     ],
     player: new Audio()
@@ -134,6 +134,10 @@ button:hover {
 button:active {
 	position:relative;
 	top:1px;
+}
+
+button:focus{
+  outline: 0;
 }
 
 .play, .pause {
