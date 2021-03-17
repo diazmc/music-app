@@ -18,7 +18,11 @@ export default {
     display: flex;
     justify-content: center;
     padding: 15px;
-    background-color: #1F2041;
+    background-color: #44c767;
     color: #ffffff;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 </style>

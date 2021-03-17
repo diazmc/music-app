@@ -35,7 +35,9 @@ body {
   font-family: 'montserrat', sans-serif;
 }
 
-/* #app {
-  background-image: url('./assets/')
-} */
+#app {
+  height: 100vh;
+  background-color: #0D0D15;
+  color: #ffffff;
+}
 </style>
